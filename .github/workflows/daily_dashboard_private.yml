@@ -1,0 +1,65 @@
+# For a PRIVATE repo (no GitHub Pages, since Pages needs a paid plan
+# for private repos on personal accounts).
+#
+# Instead, this workflow:
+#   1. Runs the script daily.
+#   2. Commits the refreshed dashboard.html + returns_table.csv back
+#      into the repo, so you can just `git pull` (or view them on
+#      github.com) to see the latest version.
+#   3. ALSO uploads them as a "workflow artifact" — a zip you can
+#      download from the Actions tab without pulling anything.
+#
+# SETUP:
+#   1. Settings -> Actions -> General -> "Workflow permissions" ->
+#      select "Read and write permissions". This lets the workflow
+#      push commits back to the repo.
+#   2. Push this file (as .github/workflows/daily_dashboard.yml),
+#      along with etf_dashboard.py and requirements.txt, to your repo.
+#   3. Test it: Actions tab -> "Daily ETF Dashboard (private repo)" ->
+#      "Run workflow" button.
+
+name: Daily ETF Dashboard (private repo)
+
+on:
+  schedule:
+    - cron: "0 22 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # needed so the workflow can commit the dashboard back
+
+jobs:
+  build-and-commit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run dashboard script
+        run: python etf_dashboard.py
+
+      # Downloadable without pulling anything - shows up as a zip
+      # under the workflow run's "Artifacts" section.
+      - name: Upload as workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: dashboard-${{ github.run_number }}
+          path: |
+            dashboard.html
+            returns_table.csv
+          retention-days: 30
+
+      # Commit the refreshed files back into the repo.
+      - name: Commit updated dashboard
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dashboard.html returns_table.csv
+          git diff --quiet --cached || git commit -m "Update dashboard $(date -u +'%Y-%m-%d')"
+          git push

@@ -1,0 +1,67 @@
+# Runs etf_dashboard.py every weekday and publishes dashboard.html to
+# GitHub Pages, so you get a URL you can check from your phone with
+# no need to keep any computer on.
+#
+# SETUP (one-time):
+#   1. Create a new GitHub repo and push this project into it
+#      (etf_dashboard.py, requirements.txt, and this workflow file).
+#   2. In the repo: Settings -> Pages -> Source -> "GitHub Actions".
+#   3. Push to `main` once, or wait for the schedule below, or trigger
+#      manually from the Actions tab ("Run workflow").
+#   4. Your dashboard will be live at:
+#      https://<your-username>.github.io/<your-repo>/
+#
+# The schedule below runs at 22:00 UTC on weekdays (adjust the cron
+# expression for your timezone/preference — cron times are always UTC).
+
+name: Daily ETF Dashboard
+
+on:
+  schedule:
+    - cron: "0 22 * * 1-5"
+  workflow_dispatch: {}   # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run dashboard script
+        run: python etf_dashboard.py
+
+      - name: Prepare pages folder
+        run: |
+          mkdir -p _site
+          cp dashboard.html _site/index.html
+          cp returns_table.csv _site/ || true
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
