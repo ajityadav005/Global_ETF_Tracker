@@ -2,7 +2,7 @@
 Global ETF / Asset Performance Dashboard
 =========================================
 Fetches daily prices for a basket of ETFs/ETNs (and one FX pair) via
-the `yfinance` library, computes performance returns (1M / 3M / YTD / 1Y)
+the `yfinance` library, computes performance returns (1W / 1M / 3M / YTD / 1Y)
 and a normalized comparison chart, and writes a self-contained
 interactive HTML dashboard (dashboard.html) that you can open in any
 browser.
@@ -148,7 +148,7 @@ def fetch_prices() -> pd.DataFrame:
 
 def compute_returns(prices: pd.DataFrame) -> pd.DataFrame:
     """Build a table of 1M / 3M / YTD / 1Y % returns per ticker."""
-    periods = {"1M": 21, "3M": 63, "1Y": 252}  # approx trading days
+    periods = {"1W": 5, "1M": 21, "3M": 63, "1Y": 252}  # approx trading days
     rows = []
     current_year = prices.index[-1].year
 
