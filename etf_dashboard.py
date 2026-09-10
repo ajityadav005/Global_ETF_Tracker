@@ -148,7 +148,7 @@ def fetch_prices() -> pd.DataFrame:
 
 def compute_returns(prices: pd.DataFrame) -> pd.DataFrame:
     """Build a table of 1M / 3M / YTD / 1Y % returns per ticker."""
-    periods = {"1W": 5, "1M": 21, "3M": 63, "1Y": 252}  # approx trading days
+    periods = {"1W": 5, "1M": 21, "3M": 63, "6M": 126, "9M": 189, "12M": 252} # approx trading days
     rows = []
     current_year = prices.index[-1].year
 
@@ -164,16 +164,12 @@ def compute_returns(prices: pd.DataFrame) -> pd.DataFrame:
             else:
                 row[label] = None
 
-        ytd_series = series[series.index.year == current_year]
-        if not ytd_series.empty:
-            row["YTD"] = round((series.iloc[-1] / ytd_series.iloc[0] - 1) * 100, 2)
-        else:
-            row["YTD"] = None
+        
 
         rows.append(row)
 
     df = pd.DataFrame(rows)
-    return df.sort_values("YTD", ascending=False, na_position="last").reset_index(drop=True)
+    return df.sort_values("12M", ascending=False, na_position="last").reset_index(drop=True)
 
 
 def build_dashboard(prices: pd.DataFrame, returns: pd.DataFrame, out_path: str = "dashboard.html"):
