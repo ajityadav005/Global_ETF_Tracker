@@ -2,7 +2,7 @@
 Global ETF / Asset Performance Dashboard
 =========================================
 Fetches daily prices for a basket of ETFs/ETNs (and one FX pair) via
-the `yfinance` library, computes performance returns (1W / 1M / 3M / YTD / 1Y)
+the `yfinance` library, computes performance returns (1W / 1M / 3M / 6M / 9M / 12M)
 and a normalized comparison chart, and writes a self-contained
 interactive HTML dashboard (dashboard.html) that you can open in any
 browser.
@@ -147,10 +147,9 @@ def fetch_prices() -> pd.DataFrame:
 
 
 def compute_returns(prices: pd.DataFrame) -> pd.DataFrame:
-    """Build a table of 1M / 3M / YTD / 1Y % returns per ticker."""
-    periods = {"1W": 5, "1M": 21, "3M": 63, "6M": 126, "9M": 189, "12M": 252} # approx trading days
+    """Build a table of 1W / 1M / 3M / 6M / 9M / 12M % returns per ticker."""
+    periods = {"1W": 5, "1M": 21, "3M": 63, "6M": 126, "9M": 189, "12M": 252}  # approx trading days
     rows = []
-    current_year = prices.index[-1].year
 
     for ticker in prices.columns:
         series = prices[ticker].dropna()
@@ -163,8 +162,6 @@ def compute_returns(prices: pd.DataFrame) -> pd.DataFrame:
                 row[label] = round((series.iloc[-1] / series.iloc[-days - 1] - 1) * 100, 2)
             else:
                 row[label] = None
-
-        
 
         rows.append(row)
 
@@ -198,7 +195,9 @@ def build_dashboard(prices: pd.DataFrame, returns: pd.DataFrame, out_path: str =
     chart_html = fig.to_html(full_html=False, include_plotlyjs="cdn")
 
     # --- Returns table (plain HTML, sortable via simple JS) ---
-    table_html = returns.to_html(index=False, classes="returns-table", na_rep="—", border=0)
+    table_html = returns.to_html(
+        index=False, classes="returns-table", na_rep="—", border=0, table_id="returns-table"
+    )
 
     generated_at = datetime.now().strftime("%Y-%m-%d %H:%M")
 
@@ -215,7 +214,10 @@ def build_dashboard(prices: pd.DataFrame, returns: pd.DataFrame, out_path: str =
   table.returns-table th, table.returns-table td {{ padding: 6px 10px; text-align: right; border-bottom: 1px solid #eee; }}
   table.returns-table th:nth-child(1), table.returns-table td:nth-child(1),
   table.returns-table th:nth-child(2), table.returns-table td:nth-child(2) {{ text-align: left; }}
-  table.returns-table th {{ background: #f0f0f0; cursor: pointer; }}
+  table.returns-table th {{ background: #f0f0f0; cursor: pointer; user-select: none; white-space: nowrap; }}
+  table.returns-table th:hover {{ background: #e6e6e6; }}
+  table.returns-table th .arrow {{ font-size: 0.7em; color: #888; margin-left: 4px; }}
+  .hint {{ color: #999; font-size: 0.8rem; margin-bottom: 0.5rem; }}
 </style>
 </head>
 <body>
@@ -223,7 +225,72 @@ def build_dashboard(prices: pd.DataFrame, returns: pd.DataFrame, out_path: str =
   <div class="meta">Generated {generated_at} — data via Yahoo Finance (yfinance)</div>
   {chart_html}
   <h2>Returns table (%)</h2>
+  <div class="hint">Click a column header to sort (click again to reverse).</div>
   {table_html}
+
+<script>
+(function() {{
+  const table = document.getElementById("returns-table");
+  if (!table) return;
+  const headers = table.querySelectorAll("thead th");
+  const tbody = table.querySelector("tbody");
+
+  headers.forEach((th, colIndex) => {{
+    let sortDir = null; // null -> not the active sort column yet
+    th.addEventListener("click", () => {{
+      // reset arrows on all other headers
+      headers.forEach((h, i) => {{
+        if (i !== colIndex) {{
+          h.dataset.dir = "";
+          const a = h.querySelector(".arrow");
+          if (a) a.remove();
+        }}
+      }});
+
+      sortDir = th.dataset.dir === "asc" ? "desc" : "asc";
+      th.dataset.dir = sortDir;
+
+      const existingArrow = th.querySelector(".arrow");
+      if (existingArrow) existingArrow.remove();
+      const arrow = document.createElement("span");
+      arrow.className = "arrow";
+      arrow.textContent = sortDir === "asc" ? "▲" : "▼";
+      th.appendChild(arrow);
+
+      const rows = Array.from(tbody.querySelectorAll("tr"));
+
+      const getCellValue = (row) => row.children[colIndex].textContent.trim();
+
+      const parseValue = (raw) => {{
+        if (raw === "—" || raw === "") return null;
+        const cleaned = raw.replace(/[%,]/g, "");
+        const num = parseFloat(cleaned);
+        return isNaN(num) ? raw.toLowerCase() : num;
+      }};
+
+      rows.sort((rowA, rowB) => {{
+        const a = parseValue(getCellValue(rowA));
+        const b = parseValue(getCellValue(rowB));
+
+        // Nulls always sink to the bottom regardless of direction.
+        if (a === null && b === null) return 0;
+        if (a === null) return 1;
+        if (b === null) return -1;
+
+        let cmp;
+        if (typeof a === "number" && typeof b === "number") {{
+          cmp = a - b;
+        }} else {{
+          cmp = String(a).localeCompare(String(b));
+        }}
+        return sortDir === "asc" ? cmp : -cmp;
+      }});
+
+      rows.forEach((row) => tbody.appendChild(row));
+    }});
+  }});
+}})();
+</script>
 </body>
 </html>"""
 
