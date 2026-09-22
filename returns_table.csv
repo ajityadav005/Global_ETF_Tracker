@@ -14,19 +14,19 @@ XLV,Health Care Select Sector SPDR,1.83,-4.15,13.21,15.84,10.7,24.88
 AMLP,Alerian MLP ETF,-1.66,0.15,10.56,7.63,24.49,24.66
 EWJ,iShares MSCI Japan ETF,-1.58,2.34,0.77,15.99,20.63,24.65
 QQQ,Invesco QQQ Trust,0.92,0.75,-2.48,21.94,18.36,22.87
-VEA,Vanguard FTSE Developed Markets ETF,-1.8,-1.99,-1.29,12.03,17.03,22.37
+VEA,Vanguard FTSE Developed Markets ETF,-1.56,-1.75,-1.04,12.31,17.31,22.67
 EZA,iShares MSCI South Africa ETF,-2.3,-2.56,2.62,7.79,6.53,21.3
 IWM,iShares Russell 2000 ETF,-1.4,-5.59,-3.64,15.3,14.46,20.13
 GLD,SPDR Gold Trust,0.6,-3.06,3.63,-5.92,1.33,19.05
 ACWI,iShares MSCI ACWI ETF,-0.6,-0.88,0.98,15.03,14.53,18.08
-SPY,SPDR S&P 500 ETF,-0.34,-0.96,2.0,16.06,13.13,16.83
+SPY,SPDR S&P 500 ETF,-0.09,-0.71,2.26,16.34,13.41,17.12
 VTI,Vanguard Total Stock Market ETF,-0.23,-1.2,1.76,16.06,13.28,16.81
 EFA,iShares MSCI EAFE ETF,-1.62,-2.5,0.54,10.48,12.34,16.73
 IYT,iShares Transportation Average ETF,-2.06,-7.09,-4.16,9.12,7.39,15.75
 EZU,iShares MSCI Eurozone ETF,-2.08,-4.28,-1.66,11.17,9.11,15.42
 XLI,Industrial Select Sector SPDR,-1.52,-6.71,-5.94,4.01,9.72,13.76
-VWO,Vanguard FTSE Emerging Markets ETF,-0.56,-0.05,-1.25,11.24,14.55,12.95
-GAL,SPDR SSGA Global Allocation ETF,-0.51,-1.01,0.4,8.28,9.67,12.05
+VWO,Vanguard FTSE Emerging Markets ETF,-0.37,0.14,-1.06,11.45,14.77,13.16
+GAL,SPDR SSGA Global Allocation ETF,-0.5,-1.0,0.4,8.29,9.67,12.06
 XLB,Materials Select Sector SPDR,-1.88,-4.82,-3.15,5.57,12.58,12.03
 EWA,iShares MSCI Australia ETF,-1.78,-4.07,0.67,3.16,12.91,9.26
 FXA,CurrencyShares Australian Dollar Trust,-0.61,0.23,2.04,1.16,8.35,8.3
@@ -41,8 +41,8 @@ EMB,iShares J.P. Morgan USD EM Bond ETF,0.04,-1.39,-2.21,1.31,0.43,2.92
 HYG,iShares iBoxx $ High Yield Corporate Bond ETF,-0.09,-0.94,-0.37,1.59,1.81,2.79
 FXB,CurrencyShares British Pound Sterling Trust,-0.95,-1.38,1.99,0.74,1.31,0.31
 XLU,Utilities Select Sector SPDR,-3.04,-6.63,-7.59,-10.5,-2.5,0.17
-NZDUSD,NZD/USD spot rate,-1.4,-3.57,0.22,-1.42,-1.92,-0.94
-FXC,CurrencyShares Canadian Dollar Trust,-1.03,-1.28,0.97,-1.87,-1.65,-1.47
+NZDUSD,NZD/USD spot rate,-1.53,-3.88,1.03,-0.67,-1.77,-1.01
+FXC,CurrencyShares Canadian Dollar Trust,-1.02,-1.28,0.97,-1.87,-1.65,-1.47
 TIP,iShares TIPS Bond ETF,-0.54,-2.08,-2.11,-2.02,-0.87,-1.55
 URA,Global X Uranium ETF,-4.32,-7.47,-12.83,-13.71,-1.43,-2.05
 FXE,CurrencyShares Euro Trust,-0.95,-1.58,0.43,-0.42,-1.64,-2.12
