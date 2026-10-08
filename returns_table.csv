@@ -37,11 +37,11 @@ RWO,SPDR Dow Jones Global Real Estate ETF,-0.9,-5.06,-5.97,1.4,5.12,5.15
 XLF,Financial Select Sector SPDR,0.0,-6.71,-1.4,9.04,-2.6,2.13
 VNQ,Vanguard Real Estate ETF,-0.66,-5.53,-6.29,1.13,4.25,2.09
 HYG,iShares iBoxx $ High Yield Corporate Bond ETF,0.33,-1.95,-1.56,-0.15,-0.13,1.38
+XLRE,Real Estate Select Sector SPDR,-0.58,-5.65,-6.12,0.21,4.11,1.12
 EMB,iShares J.P. Morgan USD EM Bond ETF,0.13,-3.25,-3.75,-0.65,-1.89,0.6
 FXB,CurrencyShares British Pound Sterling Trust,0.36,-1.61,-0.4,0.96,-0.45,0.58
-XLRE,Real Estate Select Sector SPDR,-1.64,-7.32,-8.64,-0.93,3.14,0.47
+NZDUSD,NZD/USD spot rate,-0.3,-4.4,-2.4,-4.22,-2.1,-1.61
 FXC,CurrencyShares Canadian Dollar Trust,-0.21,-2.75,-0.36,-2.17,-3.15,-1.72
-NZDUSD,NZD/USD spot rate,-1.15,-4.83,-2.05,-3.54,-2.45,-2.04
 TIP,iShares TIPS Bond ETF,0.16,-2.61,-2.87,-2.84,-2.19,-2.08
 FXE,CurrencyShares Euro Trust,-0.62,-2.93,-1.22,-2.47,-3.33,-3.27
 LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,0.17,-2.75,-3.91,-4.08,-4.22,-4.08
@@ -52,7 +52,7 @@ FXY,CurrencyShares Japanese Yen Trust,-0.58,-1.26,2.6,0.66,-1.45,-7.19
 VNQI,Vanguard Global ex-U.S. Real Estate ETF,-1.41,-7.09,-6.7,-6.37,-9.24,-8.04
 IFGL,iShares International Developed Real Estate ETF,-2.02,-8.25,-8.0,-7.9,-9.66,-8.26
 TLT,iShares 20+ Year Treasury Bond ETF,-0.82,-5.62,-7.3,-8.71,-8.56,-9.53
-INDA,iShares MSCI India ETF,-1.1,-6.71,-5.59,-1.44,-14.64,-10.96
+INDA,iShares MSCI India ETF,-0.45,-6.37,-3.95,-1.33,-13.93,-10.91
 URA,Global X Uranium ETF,4.4,-9.25,0.34,-12.83,-14.04,-11.7
 XHB,SPDR S&P Homebuilders ETF,0.41,-5.17,-7.66,1.11,-6.54,-12.13
 FXI,iShares China Large-Cap ETF,-0.27,-5.88,0.99,-4.1,-14.79,-16.97
