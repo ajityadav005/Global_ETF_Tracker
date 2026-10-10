@@ -42,7 +42,7 @@ EMB,iShares J.P. Morgan USD EM Bond ETF,0.78,-2.93,-3.94,-2.22,-1.58,0.78
 FXB,CurrencyShares British Pound Sterling Trust,0.25,-2.18,-0.75,-0.51,-0.2,0.68
 FXC,CurrencyShares Canadian Dollar Trust,0.09,-2.87,-0.46,-2.8,-2.54,-1.76
 TIP,iShares TIPS Bond ETF,0.2,-2.13,-2.63,-2.58,-1.96,-1.86
-NZDUSD,NZD/USD spot rate,-0.6,-4.4,-2.74,-5.12,-2.48,-2.2
+NZDUSD,NZD/USD spot rate,0.05,-4.11,-2.75,-5.2,-2.75,-2.22
 FXE,CurrencyShares Euro Trust,-0.15,-3.49,-1.47,-3.72,-3.37,-2.92
 LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,0.43,-2.28,-3.41,-4.14,-3.98,-3.64
 FXY,CurrencyShares Japanese Yen Trust,0.14,-2.76,2.31,0.61,-0.94,-4.18
