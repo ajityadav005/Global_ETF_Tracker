@@ -21,12 +21,12 @@ VTI,Vanguard Total Stock Market ETF,0.25,1.65,3.06,13.28,12.39,16.71
 IWM,iShares Russell 2000 ETF,-1.93,-3.55,-5.39,5.36,7.51,14.52
 XLB,Materials Select Sector SPDR,-0.12,-2.52,-1.92,-4.48,3.76,13.53
 EFA,iShares MSCI EAFE ETF,-0.94,-3.42,-0.88,1.82,5.94,13.42
+GAL,SPDR SSGA Global Allocation ETF,-0.37,-0.26,0.19,3.52,6.17,12.85
 IYT,iShares Transportation Average ETF,0.19,-2.39,-8.49,3.2,3.36,12.62
 VWO,Vanguard FTSE Emerging Markets ETF,-1.45,-0.84,1.29,4.78,8.09,12.08
 XLI,Industrial Select Sector SPDR,-0.56,-1.6,-6.01,-1.57,5.29,11.61
 DBA,Invesco DB Agriculture Fund,-0.07,-1.69,2.93,5.61,10.32,11.23
 XLP,Consumer Staples Select Sector SPDR,4.16,1.9,1.85,4.91,8.56,11.13
-GAL,SPDR SSGA Global Allocation ETF,-0.21,-0.93,0.33,4.18,6.44,10.67
 EWA,iShares MSCI Australia ETF,0.84,-2.05,-0.14,-3.57,10.71,9.84
 EZU,iShares MSCI Eurozone ETF,-1.77,-5.75,-3.98,-0.44,1.3,8.89
 RWO,SPDR Dow Jones Global Real Estate ETF,0.93,-3.63,-6.52,-1.63,3.79,7.88
@@ -42,8 +42,8 @@ FXB,CurrencyShares British Pound Sterling Trust,-0.1,-2.17,-0.82,-1.21,0.07,1.48
 EMB,iShares J.P. Morgan USD EM Bond ETF,0.82,-1.94,-3.39,-2.62,-1.66,0.92
 FXC,CurrencyShares Canadian Dollar Trust,-0.15,-2.98,-1.45,-3.37,-2.46,-1.67
 TIP,iShares TIPS Bond ETF,0.5,-1.27,-2.54,-2.88,-1.91,-1.84
-NZDUSD,NZD/USD spot rate,0.05,-4.11,-2.75,-5.2,-2.75,-2.22
 FXE,CurrencyShares Euro Trust,-0.58,-3.68,-2.04,-4.71,-3.49,-2.64
+NZDUSD,NZD/USD spot rate,-0.21,-3.87,-4.46,-4.75,-4.13,-2.71
 LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,0.74,-1.24,-3.08,-4.15,-3.96,-3.22
 XLY,Consumer Discretionary Select SPDR,1.68,-0.39,-2.92,-1.03,-9.2,-3.76
 FXY,CurrencyShares Japanese Yen Trust,-0.41,-3.18,2.14,0.33,-0.77,-3.84
