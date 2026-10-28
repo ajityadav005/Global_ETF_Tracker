@@ -1,59 +1,59 @@
 Ticker,Name,1W,1M,3M,6M,9M,12M
-USO,United States Oil Fund,4.8,10.74,35.88,28.04,129.25,140.03
-XLE,Energy Select Sector SPDR,1.6,10.75,19.5,23.52,43.74,62.43
-DBC,Invesco DB Commodity Index Tracking Fund,1.07,2.77,17.55,14.2,41.03,56.94
-EWZ,iShares MSCI Brazil Capped ETF,1.82,15.39,18.73,7.65,17.51,48.19
-DJP,iPath Bloomberg Commodity Index Total Return ETN,-0.59,-1.48,11.44,7.91,25.89,44.9
-IBB,iShares Nasdaq Biotechnology ETF,2.85,-0.72,10.31,22.38,18.59,35.24
-SLX,VanEck Steel ETF,-2.35,-4.57,-3.9,-1.5,5.08,34.56
-XLK,Technology Select Sector SPDR,-0.13,-5.9,5.25,14.63,26.74,29.02
-XLV,Health Care Select Sector SPDR,1.45,5.54,10.14,25.37,15.25,24.88
-AMLP,Alerian MLP ETF,0.97,-0.49,-0.15,6.36,14.33,23.41
-DBB,Invesco DB Base Metals Fund,0.73,-4.05,0.12,-1.23,2.47,19.71
-EWJ,iShares MSCI Japan ETF,-0.82,-1.78,2.83,8.35,11.89,19.43
-XLB,Materials Select Sector SPDR,0.77,3.28,0.3,-0.35,4.0,18.29
-QQQ,Invesco QQQ Trust,-0.76,-4.95,3.37,6.33,13.5,16.88
-VEA,Vanguard FTSE Developed Markets ETF,-0.63,-2.81,-1.11,2.12,5.96,16.76
-SPY,SPDR S&P 500 ETF,-0.43,-0.94,3.08,6.99,11.12,15.03
-VTI,Vanguard Total Stock Market ETF,-0.28,-1.09,2.4,6.53,10.47,14.71
-ACWI,iShares MSCI ACWI ETF,-0.6,-2.05,1.42,4.87,8.72,14.49
-IWM,iShares Russell 2000 ETF,1.96,-2.1,-5.61,0.17,4.84,14.47
-IYT,iShares Transportation Average ETF,0.19,1.6,-7.82,-1.04,5.11,14.02
-XLP,Consumer Staples Select Sector SPDR,0.73,8.03,4.08,7.48,8.5,13.72
-EFA,iShares MSCI EAFE ETF,-0.89,-1.79,-1.23,2.44,4.29,12.38
-SLV,iShares Silver Trust,-5.42,-15.45,-7.95,-29.18,-47.56,11.03
-EWA,iShares MSCI Australia ETF,1.36,2.86,0.83,1.23,7.85,10.95
-GDX,VanEck Gold Miners ETF,-8.56,-13.16,5.9,-14.99,-25.06,10.74
-FXA,CurrencyShares Australian Dollar Trust,1.4,0.46,1.1,-0.86,3.05,9.79
+USO,United States Oil Fund,3.37,12.07,37.96,23.39,126.22,126.81
+XLE,Energy Select Sector SPDR,2.71,12.25,21.68,24.29,44.29,61.01
+DBC,Invesco DB Commodity Index Tracking Fund,0.3,3.56,18.11,12.26,39.07,52.88
+DJP,iPath Bloomberg Commodity Index Total Return ETN,-0.97,-1.53,11.64,6.21,23.44,41.99
+IBB,iShares Nasdaq Biotechnology ETF,2.27,-0.51,9.54,23.49,18.78,35.28
+SLX,VanEck Steel ETF,-3.27,-5.04,-4.68,-2.13,5.61,31.15
+XLK,Technology Select Sector SPDR,0.19,-5.07,9.03,16.31,28.01,29.56
+XLV,Health Care Select Sector SPDR,2.07,5.03,7.6,26.0,14.8,24.81
+AMLP,Alerian MLP ETF,2.15,0.51,-0.86,6.47,14.54,22.98
+EWJ,iShares MSCI Japan ETF,-0.75,-3.73,4.95,8.11,12.01,19.6
+DBB,Invesco DB Base Metals Fund,0.32,-3.86,1.38,-0.64,2.63,19.05
+QQQ,Invesco QQQ Trust,-0.86,-4.34,5.54,7.45,14.26,17.19
+EWZ,iShares MSCI Brazil Capped ETF,-18.55,-7.25,-5.27,-13.57,-5.83,17.11
+XLB,Materials Select Sector SPDR,0.84,3.17,-1.38,0.06,4.02,17.05
+VEA,Vanguard FTSE Developed Markets ETF,-0.04,-3.49,-0.14,2.64,5.91,16.63
+IYT,iShares Transportation Average ETF,1.66,1.7,-7.0,-0.7,5.94,15.77
+SPY,SPDR S&P 500 ETF,-0.14,-0.78,3.56,7.56,11.35,15.16
+VTI,Vanguard Total Stock Market ETF,0.01,-0.85,2.88,7.12,10.75,14.76
+ACWI,iShares MSCI ACWI ETF,-0.35,-2.16,1.96,5.37,8.83,14.32
+XLP,Consumer Staples Select Sector SPDR,0.86,7.19,1.7,8.27,8.3,13.89
+IWM,iShares Russell 2000 ETF,2.1,-1.77,-5.34,0.45,5.64,13.55
+EFA,iShares MSCI EAFE ETF,0.04,-2.51,-0.94,3.12,4.05,12.16
+EWA,iShares MSCI Australia ETF,1.18,2.6,-0.51,1.34,7.1,10.65
+GDX,VanEck Gold Miners ETF,-6.3,-12.76,9.18,-12.5,-24.62,10.6
+SLV,iShares Silver Trust,-5.59,-16.31,-5.88,-28.79,-50.52,10.14
 GAL,SPDR SSGA Global Allocation ETF,0.08,-1.17,0.54,1.74,4.59,9.18
-XLI,Industrial Select Sector SPDR,-1.87,-2.49,-9.9,-4.06,1.04,8.92
-EWH,iShares MSCI Hong Kong ETF,-1.63,-3.29,-4.61,-5.47,-2.42,8.37
-XLF,Financial Select Sector SPDR,0.68,2.51,-1.38,9.48,6.62,8.3
-DBA,Invesco DB Agriculture Fund,-1.28,-2.38,0.91,1.75,8.28,7.1
-EZA,iShares MSCI South Africa ETF,-3.28,-4.19,1.94,-7.97,-15.48,7.04
-EZU,iShares MSCI Eurozone ETF,-1.81,-5.23,-5.32,-1.09,-1.03,6.73
-VWO,Vanguard FTSE Emerging Markets ETF,-2.05,-5.06,-2.2,-3.4,0.43,6.65
-RWO,SPDR Dow Jones Global Real Estate ETF,1.26,0.19,-7.82,-1.66,5.05,5.9
-VNQ,Vanguard Real Estate ETF,1.01,1.67,-7.01,-1.03,5.29,4.31
-XLRE,Real Estate Select Sector SPDR,0.97,2.21,-6.19,-1.2,5.69,3.6
-FXB,CurrencyShares British Pound Sterling Trust,0.35,1.31,1.11,-0.23,-0.4,2.2
-HYG,iShares iBoxx $ High Yield Corporate Bond ETF,0.25,-0.64,-1.36,-1.38,-0.73,1.29
-NZDUSD,NZD/USD spot rate,0.47,0.72,-1.9,-3.63,-5.79,0.88
-EMB,iShares J.P. Morgan USD EM Bond ETF,0.14,-0.09,-2.16,-2.19,-1.41,0.46
-FXC,CurrencyShares Canadian Dollar Trust,0.93,0.98,0.9,-2.36,-2.16,0.01
-TIP,iShares TIPS Bond ETF,0.66,1.86,-0.34,-1.72,-0.32,-1.16
-FXE,CurrencyShares Euro Trust,-0.39,-1.48,-1.29,-4.05,-4.73,-2.76
-GLD,SPDR Gold Trust,-4.03,-6.4,-2.14,-15.38,-19.95,-2.83
-XLU,Utilities Select Sector SPDR,0.83,8.13,-6.15,-6.57,2.09,-3.16
-LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,0.44,1.11,-1.24,-2.94,-2.94,-3.44
-FXY,CurrencyShares Japanese Yen Trust,0.72,1.28,4.3,1.48,-1.02,-3.45
-XLY,Consumer Discretionary Select SPDR,0.57,2.52,2.26,-4.31,-7.57,-3.89
-FXF,CurrencyShares Swiss Franc Trust,-0.17,0.33,-0.85,-5.11,-5.71,-4.04
-IFGL,iShares International Developed Real Estate ETF,1.75,-0.62,-8.09,-9.82,-9.59,-6.53
-VNQI,Vanguard Global ex-U.S. Real Estate ETF,0.73,-0.63,-6.73,-9.05,-9.67,-6.77
-TLT,iShares 20+ Year Treasury Bond ETF,1.61,2.83,-1.72,-3.99,-4.27,-7.55
-XHB,SPDR S&P Homebuilders ETF,3.66,1.63,-9.44,-8.65,-11.03,-7.73
-INDA,iShares MSCI India ETF,-2.52,-2.31,-4.97,-6.29,-9.33,-15.97
-FXI,iShares China Large-Cap ETF,-4.52,-5.64,-8.42,-11.69,-17.46,-17.2
-UNG,United States Natural Gas Fund,-10.13,-17.06,-5.24,-7.08,-31.42,-26.65
-URA,Global X Uranium ETF,-3.73,-16.52,-15.4,-38.33,-40.16,-26.98
+XLI,Industrial Select Sector SPDR,0.17,-2.04,-8.26,-2.72,2.38,9.1
+FXA,CurrencyShares Australian Dollar Trust,0.67,-0.02,1.02,-1.58,2.37,9.07
+EWH,iShares MSCI Hong Kong ETF,-0.05,-1.39,-4.36,-4.39,-2.3,8.49
+XLF,Financial Select Sector SPDR,1.74,2.15,-2.4,8.89,6.17,8.3
+EZU,iShares MSCI Eurozone ETF,-0.31,-5.5,-4.75,-0.09,-1.28,6.46
+RWO,SPDR Dow Jones Global Real Estate ETF,2.72,0.85,-7.56,-1.0,5.38,6.28
+DBA,Invesco DB Agriculture Fund,-2.13,-3.29,-0.86,0.11,7.14,6.22
+EZA,iShares MSCI South Africa ETF,-1.73,-4.5,2.44,-7.01,-16.15,5.39
+VWO,Vanguard FTSE Emerging Markets ETF,-2.64,-6.08,-1.96,-3.5,-0.45,5.22
+VNQ,Vanguard Real Estate ETF,2.71,2.4,-6.91,0.03,5.97,4.92
+XLRE,Real Estate Select Sector SPDR,2.71,2.98,-6.19,0.11,6.33,4.26
+FXB,CurrencyShares British Pound Sterling Trust,0.25,0.84,0.97,-0.36,-0.91,2.32
+HYG,iShares iBoxx $ High Yield Corporate Bond ETF,0.48,-0.41,-1.35,-1.22,-0.59,1.26
+EMB,iShares J.P. Morgan USD EM Bond ETF,0.45,-0.25,-2.55,-2.17,-1.67,0.37
+NZDUSD,NZD/USD spot rate,0.01,0.26,-3.36,-3.31,-5.33,0.16
+FXC,CurrencyShares Canadian Dollar Trust,0.56,0.81,0.58,-2.79,-2.23,-0.2
+TIP,iShares TIPS Bond ETF,1.0,1.69,-0.53,-1.63,-0.39,-0.9
+GLD,SPDR Gold Trust,-3.13,-6.5,-0.42,-14.44,-20.85,-2.9
+FXE,CurrencyShares Euro Trust,-0.28,-1.78,-1.59,-4.12,-5.39,-2.99
+XLU,Utilities Select Sector SPDR,2.88,7.69,-5.84,-6.61,1.33,-3.1
+LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,1.11,1.22,-1.37,-2.51,-2.86,-3.16
+XLY,Consumer Discretionary Select SPDR,-0.17,3.35,1.81,-2.63,-6.01,-3.35
+FXY,CurrencyShares Japanese Yen Trust,0.78,-0.1,4.0,1.15,-2.43,-3.42
+FXF,CurrencyShares Swiss Franc Trust,-0.15,0.06,-1.12,-5.32,-6.61,-4.43
+TLT,iShares 20+ Year Treasury Bond ETF,2.79,3.39,-1.88,-3.11,-4.32,-6.52
+IFGL,iShares International Developed Real Estate ETF,3.05,-0.24,-8.25,-9.12,-9.87,-6.6
+VNQI,Vanguard Global ex-U.S. Real Estate ETF,1.95,-0.46,-6.96,-8.49,-9.95,-7.03
+XHB,SPDR S&P Homebuilders ETF,4.06,-0.38,-10.16,-9.0,-11.19,-8.96
+INDA,iShares MSCI India ETF,-1.71,-2.65,-5.65,-5.65,-9.43,-14.92
+FXI,iShares China Large-Cap ETF,-3.04,-4.27,-8.81,-10.14,-16.97,-18.07
+UNG,United States Natural Gas Fund,-8.6,-14.11,-2.45,-8.87,-35.54,-26.06
+URA,Global X Uranium ETF,-2.58,-16.01,-11.78,-39.4,-37.45,-27.91
