@@ -27,9 +27,9 @@ XLRE,Real Estate Select Sector SPDR,-1.17,6.6,-0.34,2.6,6.69,11.94
 VNQ,Vanguard Real Estate ETF,-1.03,6.45,-0.73,2.96,6.88,11.65
 EZU,iShares MSCI Eurozone ETF,0.43,2.96,-5.63,2.65,1.15,11.46
 RWO,SPDR Dow Jones Global Real Estate ETF,-0.99,5.47,-1.91,1.3,3.13,11.37
-QQQ,Invesco QQQ Trust,-0.23,-7.15,-5.6,-3.2,12.99,11.29
-GAL,SPDR SSGA Global Allocation ETF,-0.82,-1.12,-2.76,-0.53,2.84,8.35
+QQQ,Invesco QQQ Trust,-0.23,-7.15,-5.6,-3.2,12.99,11.3
 EZA,iShares MSCI South Africa ETF,1.98,3.95,-0.7,-3.45,-10.72,8.17
+GAL,SPDR SSGA Global Allocation ETF,0.91,-1.03,-3.34,-1.42,3.03,7.43
 EWH,iShares MSCI Hong Kong ETF,-1.5,3.18,2.49,-4.55,-1.54,7.11
 FXA,CurrencyShares Australian Dollar Trust,-2.23,-1.78,-2.58,-4.83,-2.94,6.06
 VWO,Vanguard FTSE Emerging Markets ETF,1.67,-4.12,-4.99,-4.24,-1.9,5.89
@@ -41,8 +41,8 @@ SLV,iShares Silver Trust,-1.08,-12.79,-19.79,-41.21,-39.07,1.88
 HYG,iShares iBoxx $ High Yield Corporate Bond ETF,-0.22,0.86,-1.58,-0.29,0.06,1.79
 EMB,iShares J.P. Morgan USD EM Bond ETF,-0.4,1.33,-2.12,-1.05,-1.22,0.76
 XLU,Utilities Select Sector SPDR,0.48,4.66,0.23,-0.55,0.32,0.53
-NZDUSD,NZD/USD spot rate,-1.21,-1.03,-5.68,-4.75,-6.94,-0.63
 TIP,iShares TIPS Bond ETF,-0.79,0.82,-1.62,-2.38,-1.61,-1.12
+NZDUSD,NZD/USD spot rate,-0.88,-1.14,-6.09,-5.49,-7.62,-1.19
 XHB,SPDR S&P Homebuilders ETF,-4.11,8.95,-5.34,4.9,-13.65,-1.34
 FXC,CurrencyShares Canadian Dollar Trust,-1.99,-0.21,-2.18,-3.73,-4.62,-1.49
 LQD,iShares iBoxx $ Investment Grade Corporate Bond ETF,-0.52,1.77,-1.22,-1.97,-2.7,-1.66
