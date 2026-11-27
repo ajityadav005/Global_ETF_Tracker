@@ -26,7 +26,7 @@ ACWI,iShares MSCI ACWI ETF,-1.78,-6.69,-8.38,-5.87,0.68,8.61
 SPY,SPDR S&P 500 ETF,-1.85,-6.88,-6.82,-4.54,4.79,8.33
 EZU,iShares MSCI Eurozone ETF,-2.13,-3.54,-10.94,-6.39,-6.74,7.12
 DBA,Invesco DB Agriculture Fund,1.23,-3.87,-8.61,-4.5,1.11,6.27
-GAL,SPDR SSGA Global Allocation ETF,-0.46,-4.0,-6.13,-4.62,-1.06,6.09
+GAL,SPDR SSGA Global Allocation ETF,-0.45,-3.99,-6.12,-4.61,-1.05,6.1
 DBB,Invesco DB Base Metals Fund,-3.2,-12.76,-13.62,-15.14,-8.68,5.99
 QQQ,Invesco QQQ Trust,-3.88,-12.11,-12.0,-13.64,4.41,5.25
 EWH,iShares MSCI Hong Kong ETF,-2.34,0.14,-3.53,-2.44,-5.71,4.97
@@ -51,7 +51,7 @@ FXE,CurrencyShares Euro Trust,0.05,-1.33,-5.49,-5.26,-6.31,-3.9
 TLT,iShares 20+ Year Treasury Bond ETF,2.52,1.17,0.13,-1.78,-5.68,-4.34
 VNQI,Vanguard Global ex-U.S. Real Estate ETF,0.14,0.37,-5.71,-6.53,-15.43,-4.38
 GDX,VanEck Gold Miners ETF,-1.24,-11.18,-28.74,-15.24,-35.12,-4.53
-NZDUSD,NZD/USD spot rate,-0.09,-3.47,-7.38,-7.41,-7.03,-4.8
+NZDUSD,NZD/USD spot rate,0.15,-2.48,-7.31,-6.5,-6.16,-4.96
 GLD,SPDR Gold Trust,-4.03,-12.04,-22.52,-20.67,-31.42,-13.87
 FXI,iShares China Large-Cap ETF,-3.37,-3.69,-11.18,-9.87,-15.66,-18.99
 SLV,iShares Silver Trust,-8.85,-24.53,-40.9,-45.73,-53.88,-20.44
